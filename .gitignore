@@ -1,0 +1,70 @@
+# Build directories
+build/
+builddir/
+*.o
+*.so
+
+# Generated files
+src/config.h
+*.a
+
+# Object files
+*.lo
+*.la
+
+# Compiled Object files
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+
+# Shared libraries (inc. .so, .so.*, *.dylib)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+*.dep
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+Makefile.gen
+*.log
+
+# Meson
+meson-logs/
+meson-info/
+
+# Temporary files
+*.tmp
+*.temp

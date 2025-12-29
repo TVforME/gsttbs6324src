@@ -1,0 +1,16 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+/* Build date */
+#define BUILD_DATE "@BUILD_DATE@"
+
+/* Build time */
+#define BUILD_TIME "@BUILD_TIME@"
+
+/* Package version */
+#define PACKAGE_VERSION "@VERSION@"
+
+/* Package name */
+#define PACKAGE_NAME "@PACKAGE@"
+
+#endif /* __CONFIG_H__ */
